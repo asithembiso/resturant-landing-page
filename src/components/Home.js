@@ -14,10 +14,10 @@ function Home() {
             <img src={BannerBackground} alt=""/>  
           </div>
           <div className="home-text-section">
-            <h1 className="primary-headingg">
+            <h1 className="primary-heading">
               Your Favourite Food Delivered Hot & Fresh
             </h1>
-            <p>Our chefs do all the prep work, like peeling, 
+            <p className="primary-text">Our chefs do all the prep work, like peeling, 
               chopping & marinating, so you can have a freh meal
             </p>
             <button className="secondary-button">
