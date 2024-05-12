@@ -33,10 +33,6 @@ const Navbar = () => {
             text: "Cart",
             icon: <ShoppingCartRoundedIcon/>
         },
-         {
-            text: "Cart",
-            icon: <ShoppingCartRoundedIcon/>
-        },
     ]
 
 
