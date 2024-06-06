@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Logo from "../assets/Logo.svg"
 import { HiOutlineBars3 } from 'react-icons/hi2';
-import { Box, Drawer, List, ListItem, ListItemButton, ListItemIcon, ListItemText } from "@mui/material"
+import { Box, Drawer, List, ListItem, ListItemIcon, ListItemText } from "@mui/material"
 import HomeIcon from "@mui/icons-material/Home"
 import InfoIcon from "@mui/icons-material/Info"
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded"
@@ -64,7 +64,7 @@ const Navbar = () => {
                 >
                     <List>
                         {menuOptions.map((item) => (
-                            <ListItem key={item.text} dissablePadding>
+                            <ListItem key={item.text} disablePadding>
                                 <ListItemIcon>
                                     {item.icon}
                                 </ListItemIcon>
